@@ -1,4 +1,4 @@
-# Bitbucket Pipelines Pipe:  
+# bitbucket Secrets Manager
 
 Access AWS secrets manager in your Bitbucket pipeline.
 
