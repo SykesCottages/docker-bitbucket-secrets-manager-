@@ -7,7 +7,7 @@ Access AWS secrets manager in your Bitbucket pipeline.
 Add the following snippet to the script section of your `bitbucket-pipelines.yml` file:
 
 ```yaml
-- pipe: sykescottages/weishaupt
+- pipe: sykescottages/bitbucket-secrets-manager
     FILE: '<string>'
     AWS_ACCESS_KEY_ID: '<string>'
     AWS_ACCESS_KEY_ID: '<string>'
@@ -45,7 +45,7 @@ Example pipe yaml
 
 ```yaml
 script:
-  - pipe: sykescottages/weishaupt
+  - pipe: sykescottages/bitbucket-secrets-manager
     variables:
       AWS_ACCESS_KEY_ID: $AWS_ACCESS_KEY
       AWS_SECRET_ACCESS_KEY: $AWS_SECRET_KEY
@@ -54,13 +54,3 @@ script:
       AWS_PROFILE: staging
 ```
 
-## Support
-If you’d like help with this pipe, or you have an issue, send a message to the, [Weishaupt Support Chat][support].
-
-If you’re reporting an issue, please include:
-
-- the version of the pipe
-- relevant logs and error messages
-- steps to reproduce
-
-[support]: https://teams.microsoft.com/l/channel/19%3a43b1c3db8d0241a989fdd05ecce45135%40thread.tacv2/General?groupId=e18d753d-d3a7-480b-a836-1e9b42736310&tenantId=eaa371d4-1c06-444c-8d18-2adf86113297
