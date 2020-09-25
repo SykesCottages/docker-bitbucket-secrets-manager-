@@ -1,6 +1,6 @@
 # Bitbucket Secrets Manager
 
-Access AWS secrets manager in your Bitbucket pipeline.
+Access AWS secrets manager in Bitbucket pipeline.
 
 ## YAML Definition
 
