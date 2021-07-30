@@ -2,6 +2,8 @@
 
 Access AWS secrets manager in Bitbucket pipeline.
 
+## PLEASE DO NOT USE THIS 
+
 ## YAML Definition
 
 Add the following snippet to the script section of your `bitbucket-pipelines.yml` file:
